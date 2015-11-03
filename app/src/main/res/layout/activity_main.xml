@@ -20,15 +20,7 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             android:id="@+id/toolbar"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="helloworld"/>
-
-        <android.support.design.widget.FloatingActionButton
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+        <include layout="@layout/content"/>
 
     </LinearLayout>
 
